@@ -1,0 +1,351 @@
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: abca@abc.com, Password: abcabc
+User: 
+Email: abca@abc.com, Password: mikeabc
+User: 
+Email: abca@gmail.com, Password: abcabc
+User: Array
+(
+    [id] => 2
+    [name] => abca
+    [email] => abca@gmail.com
+    [password] => $2y$10$BymWdb27bA34Mo9u6NjL/.Cc76UTGlxH8hbMlUn0Egs/0MRBlQRSu
+    [role_id] => 1
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: miki@gmail.com, Password: asdfgh
+User: Array
+(
+    [id] => 7
+    [name] => mikiyas
+    [email] => miki@gmail.com
+    [password] => $2y$10$SXKbx0nEhYlZEDV4S1c68uV6rz3gi2.2/N0ey/83m3HkMXLp3kcoq
+    [role_id] => 1
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikeabc
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Array
+(
+    [name] => admin123
+    [email] => admin123@admin.com
+    [password] => admin123
+    [role] => 2
+)
+Email: admin123@admin.com, Password: admin123
+User: Array
+(
+    [id] => 22
+    [name] => admin123
+    [email] => admin123@admin.com
+    [password] => $2y$10$xCz7QleMQGwUo5rgMXJZLOtdt9Et2P7fmMyD1I0NxPbeFbLbmbfF.
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: admin@admin.com, Password: admin123
+User: Array
+(
+    [id] => 21
+    [name] => admin
+    [email] => admin@admin.com
+    [password] => $2y$10$4HVcSsuc.pV8AcQQr5rlaOnjg.ZQ6by4RQZwvmX9hPFvCpk9AQHtW
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: admin@admin.com, Password: admin
+User: Array
+(
+    [id] => 21
+    [name] => admin
+    [email] => admin@admin.com
+    [password] => $2y$10$ETN436BQG8gu1iIo9wrMKufhjDu.JMClVMF/C.KUdLAAllfzrTO4u
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
+Email: mikemike@mike.com, Password: mikemike
+User: Array
+(
+    [id] => 5
+    [name] => mike
+    [email] => mikemike@mike.com
+    [password] => $2y$10$27b7f4siY0CJDXuRPnIeFeEJJ0hKjp4NNMGJ.vJAbBDcwmCwCBM8q
+    [role_id] => 2
+)
+
