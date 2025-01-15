@@ -4,7 +4,8 @@ include '../database/connection.php';
 
 // Check if the user is logged in and is an instructor
 if (!isset($_SESSION['user_id']) || !isset($_SESSION['role_id']) || $_SESSION['role_id'] != 2) {
-    die("Error: Access denied. Only instructors can create a section.");
+    //die("Error: Access denied. Only instructors can create a section.");
+    header('Location: access_denied.php');
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -126,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <nav id="navmenu" class="navmenu">
     <ul>
-        <li><a href="Home.html" class="active">Home<br></a></li>
+        <li><a style = "color: white;" href="Home.html" class="active">Home<br></a></li>
         <li class="dropdown"><a href="#"><span>Create</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
         <ul>
             <li><a href="create_schedule.php">Schedule Creation</a></li>

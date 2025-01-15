@@ -4,7 +4,8 @@ include '../database/connection.php';
 
 // Check if the user is logged in and is an instructor
 if (!isset($_SESSION['user_id']) || !isset($_SESSION['role_id']) || $_SESSION['role_id'] != 2) {
-    die("Error: Access denied. Only instructors can update a schedule.");
+    //die("Error: Access denied. Only instructors can update a schedule.");
+    header('Location: access_denied.php');
 }
 
 $user_id = $_SESSION['user_id'];
@@ -280,7 +281,7 @@ try {
                 <h2>Update Schedule</h2>
                 <nav class="breadcrumbs">
                     <ol>
-                        <li><a color="white" href="Home.html">Home</a></li>
+                        <li><a style = "color: white;" href="Home.html">Home</a></li>
                         <li class="current">Update Schedule</li>
                     </ol>
                 </nav>

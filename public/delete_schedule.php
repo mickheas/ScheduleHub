@@ -3,7 +3,8 @@ session_start();
 include '../database/connection.php';
 // Check if the user is logged in and is an instructor
 if (!isset($_SESSION['user_id']) || !isset($_SESSION['role_id']) || $_SESSION['role_id'] != 2) {
-    die("Error: Access denied. Only instructors can delete a schedule.");
+    //die("Error: Access denied. Only instructors can delete a schedule.");
+    header('Location: access_denied.php');
 }
 
 $user_id = $_SESSION['user_id'];
@@ -158,7 +159,7 @@ try {
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-    <a href="home.html" class="logo d-flex align-items-center me-auto">
+    <a style = "color: white;" href="home.html" class="logo d-flex align-items-center me-auto">
         
         <h1 class="sitename">ScheduleHub</h1>
     </a>

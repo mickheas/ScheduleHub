@@ -38,7 +38,7 @@
                 <h2 class="form__title">Sign In</h2>
         <input type="email" name="email" placeholder="me@email.com" class="input" />
         <input type="password" name="password" placeholder="password" class="input" />
-        <a href="#" class="link">Forgot your password?</a>
+        <a href="forgot_password.php" class="link">Forgot your password?</a>
         <button class="btn">Sign In</button>
     </form>
     </div>

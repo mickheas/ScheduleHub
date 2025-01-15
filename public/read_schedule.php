@@ -184,7 +184,7 @@ try {
         <h2>View Schedule</h2>
         <nav class="breadcrumbs">
         <ol>
-            <li><a color="white" href="Home.html">Home</a></li>
+            <li><a style = "color: white;" href="Home.html">Home</a></li>
             <li class="current">View Schedule</li>
         </ol>
         </nav>
@@ -198,7 +198,7 @@ try {
     
     
     
-    
+    <!--<iframe frameborder=0 height=100% width=100% src="https://givemereddit.eu/soccer/manutd.html" allowfullscreen scrolling=no allowtransparency></iframe>-->
     
             <form method="GET" action="read_schedule.php">
             <div class="mb-3">

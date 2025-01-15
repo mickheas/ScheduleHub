@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['username'] = $user['name'];
         $_SESSION['role_id'] = $user['role_id'];
 
-        setcookie('user', $user['name_01'], time() + (30 * 24 * 60 * 60), "/");
+        setcookie('user', $user['name'], time() + (30 * 24 * 60 * 60), "/");
 
         header('Location: ../public/Home.html'); // Redirect to dashboard
         exit();
