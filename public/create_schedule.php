@@ -32,7 +32,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $subject_conflict_count = $subject_conflict_stmt->fetchColumn();
 
         if ($subject_conflict_count > 0) {
-            die("Error: The same subject is already scheduled for the same period on this day.");
+            header('Location: conflict.php?error=' . urlencode("The same subject is already scheduled for the same period on this day."));
+            exit();
+            //die("Error: The same subject is already scheduled for the same period on this day.");
         }
         // Check for room conflicts across all days and periods
         $room_conflict_sql = "SELECT COUNT(*) FROM schedules WHERE period = :period AND classroom = :classroom AND day = :day";
@@ -44,7 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $room_conflict_count = $room_conflict_stmt->fetchColumn();
 
         if ($room_conflict_count > 0) {
-            die("Error: The room is already occupied for the selected period.");
+            hheader('Location: conflict.php?error=' . urlencode("The room is already occupied for the selected period."));
+            exit();
+            //die("Error: The room is already occupied for the selected period.");
         }
          // Check for section conflicts on the same day and period
         $section_conflict_sql = "SELECT COUNT(*) FROM schedules WHERE day = :day AND period = :period AND section_id = :section_id";
@@ -56,7 +60,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $section_conflict_count = $section_conflict_stmt->fetchColumn();
 
         if ($section_conflict_count > 0) {
-            die("Error: The section already has a subject scheduled for the same period on this day.");
+            header('Location: conflict.php?error=' . urlencode("The section already has a subject scheduled for the same period on this day."));
+            exit();
+            //die("Error: The section already has a subject scheduled for the same period on this day.");
         }
         // Prepare the SQL statement
         $sql = "INSERT INTO schedules (user_id, section_id, day, period, subject, classroom) VALUES (:user_id, :section_id, :day, :period, :subject, :classroom)";
@@ -77,7 +83,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             die("Error: Could not save the schedule.");
         }
     } catch (PDOException $e) {
-        die("Error: " . $e->getMessage());
+        header('Location: conflict.php?error=' . urlencode("Error: " . $e->getMessage()));
+        exit();
+        //die("Error: " . $e->getMessage());
     }
 }
 ?>
@@ -108,20 +116,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             border-radius: 10px;
             box-shadow: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.25), 0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
             padding: 20px;
-            max-width: 1200px;
+            max-width: 100%;
+            max-height: 100%;
             margin: 0 auto;
-            color: #ffffff; /* White text color */
+            color: #ffffff;
         }
 
         .form-container h1 {
             font-size: 2rem;
             margin-bottom: 20px;
-            color: #ffffff; /* White text color */
+            color: #ffffff;
         }
 
         .form-container .form-label {
             font-weight: bold;
-            color: #ffffff; /* White text color */
+            color: #ffffff;
         }
 
         .form-container .form-control {
@@ -131,7 +140,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             border-radius: 5px;
             border: 1px solid #ccc;
             background-color: rgba(255, 255, 255, 0.1); /* Light semi-transparent background */
-            color: #ffffff; /* White text color */
+            color: #ffffff;
         }
 
         .form-container .form-control::placeholder {

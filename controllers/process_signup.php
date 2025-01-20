@@ -10,32 +10,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $pass = trim($_POST['password']);
     $role = trim($_POST['role']);
 
-    // Check if all fields are filled
+
     if (empty($user) || empty($email) || empty($pass) || empty($role)) {
         die("Error: Please fill all the fields.");
     }
 
-    // Validate email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         die("Error: Invalid email address.");
     }
 
-    // Hash the password for security
     $hashedPassword = password_hash($pass, PASSWORD_DEFAULT);
 
     try {
-        // Prepare the SQL statement
         $sql = "INSERT INTO users (name, email, password, role_id) VALUES (:name, :email, :password, :role_id)";
         $stmt = $conn->prepare($sql);
 
-        // Bind parameters and execute the statement
         $stmt->bindParam(':name', $user);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':password', $hashedPassword);
         $stmt->bindParam(':role_id', $role);
 
         if ($stmt->execute()) {
-            // Redirect to login page after successful signup
             header('Location: /ScheduleHub/views/auth/login.php?signup=success');
             exit();
         } else {

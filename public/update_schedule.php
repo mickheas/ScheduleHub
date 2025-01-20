@@ -194,7 +194,8 @@ try {
             border-radius: 10px;
             box-shadow: 0 0.5rem 1.7rem rgba(0, 0, 0, 0.25), 0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
             padding: 20px;
-            max-width: 1200px;
+            max-width: 100%;
+            max-height: 100%;
             margin: 0 auto;
             color: #ffffff; /* White text color */
         }
