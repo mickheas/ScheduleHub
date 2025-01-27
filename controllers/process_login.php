@@ -1,5 +1,6 @@
 <?php
-session_start();
+include '../database/session_handler.php';
+//session_start();
 include '../database/connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -9,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = isset($_POST['password']) ? trim($_POST['password']) : '';
 
 
-    file_put_contents('debug_log.txt', "Email: $email, Password: $password\n", FILE_APPEND);
+    //file_put_contents('debug_log.txt', "Email: $email, Password: $password\n", FILE_APPEND);
 
     if (empty($email) || empty($password)) {
         die("Error: Please fill all the fields.");
@@ -25,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt->execute();
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    file_put_contents('debug_log.txt', "User: " . print_r($user, true) . "\n", FILE_APPEND);
+    //file_put_contents('debug_log.txt', "User: " . print_r($user, true) . "\n", FILE_APPEND);
 
     if ($user && password_verify($password, $user['password'])) {
         //if ($user && $password === $user['password']) {

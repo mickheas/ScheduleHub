@@ -1,6 +1,6 @@
 <?php
-file_put_contents('debug_log.txt', print_r($_POST, true), FILE_APPEND);
-
+//file_put_contents('debug_log.txt', print_r($_POST, true), FILE_APPEND);
+include '../database/session_handler.php';
 include '../database/connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -34,16 +34,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             header('Location: /ScheduleHub/views/auth/login.php?signup=success');
             exit();
         } else {
-            die("Error: Could not save the user.");
+            // die("Error: Could not save the user.");
+            header('Location: ../public/error.php?error=' . urlencode("Could not save the user."));
+            exit();
         }
     } catch (PDOException $e) {
         // Check if the error is due to duplicate email
+        // if ($e->getCode() == 23000) {
+        //     die("Error: The email address is already in use.");
+        // } else {
+        //     die("Error: " . $e->getMessage());
+        // }
         if ($e->getCode() == 23000) {
-            die("Error: The email address is already in use.");
+            header('Location: ../public/error.php?error=' . urlencode("The email address is already in use."));
+            exit();
         } else {
-            die("Error: " . $e->getMessage());
+            header('Location: ../public/error.php?error=' . urlencode("Error: " . $e->getMessage()));
+            exit();
         }
     }
 } else {
-    die("Error: Invalid request method.");
+    //die("Error: Invalid request method.");
+    header('Location: ../public/error.php?error=' . urlencode("Invalid request method."));
+    exit();
 }
